@@ -13,5 +13,6 @@ Designed to help you focus with a clean UI and subtle animations.
 - 🎨 Modern glassmorphism UI with soft gradients
 
 ---
+<img width="1115" height="854" alt="image" src="https://github.com/user-attachments/assets/22c60c29-dbbf-43c3-9bb9-121652b7fc58" />
 
 ## 📂 Project Structure
