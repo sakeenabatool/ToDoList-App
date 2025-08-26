@@ -14,11 +14,4 @@ Designed to help you focus with a clean UI and subtle animations.
 
 ---
 
-## 🚀 Demo
-
-![Screenshot](screenshot.png)  
-(Add a screenshot here if you want)
-
----
-
 ## 📂 Project Structure
