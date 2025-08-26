@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Pretty To‑Do List</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="wrap">
+      <header>
+        <div class="logo">NP</div>
+        <div>
+          <h1>Today's To‑Do</h1>
+          <p class="lead">
+            A calm, minimal list to help you focus — pre-filled with sample
+            tasks.
+          </p>
+        </div>
+      </header>
+
+      <section class="card">
+        <ul class="tasks">
+          <li class="task done">
+            <div class="checkbox"><div class="box">✓</div></div>
+            <div class="content">
+              <div class="title">Finish CS2005 milestone 1</div>
+              <div class="meta">Prepare schema and seed data • due: Aug 20</div>
+            </div>
+            <div class="tag">School</div>
+          </li>
+
+          <li class="task">
+            <div class="checkbox"><div class="box">🕘</div></div>
+            <div class="content">
+              <div class="title">Practice Java — 1 hour</div>
+              <div class="meta">
+                Work on OOP exercises: classes & inheritance
+              </div>
+            </div>
+            <div class="tag">Practice</div>
+          </li>
+
+          <li class="task">
+            <div class="checkbox"><div class="box">✍️</div></div>
+            <div class="content">
+              <div class="title">Draft lesson for Noura Prep</div>
+              <div class="meta">
+                Light, minimal slides for next tutoring session
+              </div>
+            </div>
+            <div class="tag">Work</div>
+          </li>
+
+          <li class="task">
+            <div class="checkbox"><div class="box">🛒</div></div>
+            <div class="content">
+              <div class="title">Grocery: milk, eggs, spinach</div>
+              <div class="meta">Quick run to the store after class</div>
+            </div>
+            <div class="tag">Personal</div>
+          </li>
+
+          <li class="task">
+            <div class="checkbox"><div class="box">📞</div></div>
+            <div class="content">
+              <div class="title">Call Mom</div>
+              <div class="meta">Check on weekend plans</div>
+            </div>
+            <div class="tag">Family</div>
+          </li>
+        </ul>
+
+        <footer>
+          <div class="stats">5 tasks • 1 done</div>
+          <button class="add-btn">+ Add task</button>
+        </footer>
+      </section>
+    </div>
+  </body>
+</html>
